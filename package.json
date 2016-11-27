@@ -1,6 +1,6 @@
 {
   "name": "pull-catch",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Catch errors in a pull stream",
   "main": "index.js",
   "scripts": {
