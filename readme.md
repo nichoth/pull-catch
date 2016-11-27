@@ -52,4 +52,15 @@ test('return truthy to emit one event then end', function (t) {
         })
     )
 })
+
+test('callback is optional', function (t) {
+    t.plan(1)
+    S(
+        S.error(new Error('test')),
+        Catch(),
+        S.collect(function (err, res) {
+            t.error(err, 'should end stream without error')
+        })
+    )
+})
 ```
