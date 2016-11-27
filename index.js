@@ -7,7 +7,6 @@ module.exports = function Catch (onError) {
                 if (errd) return cb(true)
                 if (end && end !== true) {  // if error
                     var _end = onError(end)
-                    // if (Array.isArray(_end)) return cb.apply(null, _end)
                     if (_end === false) return cb(end)
                     if (_end && _end !== true) {
                         errd = true
