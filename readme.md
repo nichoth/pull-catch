@@ -1,6 +1,7 @@
 # pull catch
-
 Handle errors in pull streams
+
+This is a through stream that can ensure your source stream always ends normally, even when it returns an error. This is useful if you are combining several source streams with pull-many, and you want to keep the remaining streams open even if one of them errors. 
 
 ## install 
 
