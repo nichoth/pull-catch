@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "pull-stream": "^3.5.0",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.6.3"
+    "tap-arc": "^1.2.0",
+    "tape": "^5.7.2"
   },
   "repository": {
     "type": "git",
