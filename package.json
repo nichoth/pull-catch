@@ -6,7 +6,7 @@
   "scripts": {
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish",
-    "test": "node test/index.js | tap-spec"
+    "test": "node test/index.js | tap-arc"
   },
   "devDependencies": {
     "pull-stream": "^3.5.0",
